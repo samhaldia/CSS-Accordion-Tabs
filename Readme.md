@@ -6,4 +6,4 @@ This Repository Shows to build Accordions Tabs using Radio Input. It Uses CSS3, 
 
 The Demo Page is available at below  URL:
 
-https://samhaldia.github.io/LettersBubble/
+https://samhaldia.github.io/CSS-Accordion-Tabs/
