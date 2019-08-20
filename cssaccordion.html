@@ -1,0 +1,76 @@
+<html>
+
+	<head>
+	
+		<meta charset="UTF-8" />
+        <title>Accordion with CSS3</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Accordion Using CSS and Jquery" />
+        <meta name="keywords" content="accordion, css3, radio buttons, pseudo class, Radio Checked Property, Jquery" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<!-- CSS Only Accordion-->
+		<link rel="stylesheet" href="css/accordion.css">
+		<!--Jquery can be removed to have CSS only accordion to disable "One Accordion open at a time feature"-->
+		<script src="js/accordion.js"></script>
+	</head>
+	<body>
+	<div class="container-fluid">
+		<div class="accordion-started accordion-bral row">
+			<div class="col-sm-12 col-md-12 col-lg-12">
+				<p class="acco-heading text-justify text-center">Heading</p>
+				<p class="acco-subheading text-justify text-center">Sub-Heading</p>
+			</div>	
+			
+			<div class="col-sm-12 col-md-12 col-lg-12">
+			<!-- accordion item 1 -- start -->
+				<input class="ac-input" id="ac-1"  name="accordion-1" type="radio" checked/>
+				<label class="ac-label" for="ac-1">1. LABEL:<i></i></label>
+				<div class="article ac-content">
+					<p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				</div>
+			</div>
+			<!-- accordion item 1 -- end -->
+
+			<div class="col-sm-12 col-md-12 col-lg-12">
+			<!-- accordion item 2 -- start -->
+				<input class="ac-input" id="ac-2" name="accordion-1" type="radio"/>
+				<label class="ac-label" for="ac-2">2. LABEL:<i></i></label>
+				<div class="article ac-content">
+					<p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				</div>
+			</div>
+			<!-- accordion item 2 -- end -->
+
+			<div class="col-sm-12 col-md-12 col-lg-12">
+			<!-- accordion item 3 -- start -->
+				<input class="ac-input" id="ac-3" name="accordion-1" type="radio" />
+				<label class="ac-label" for="ac-3">3. LABEL:<i></i></label>
+				<div class="article ac-content">
+					<p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				</div>
+			</div>
+			<!-- accordion item 3 -- end -->
+
+			<div class="col-sm-12 col-md-12 col-lg-12">
+			<!-- accordion item 4 -- start -->
+				<input class="ac-input" id="ac-4" name="accordion-1" type="radio" />
+				<label class="ac-label" for="ac-4">4. LABEL:<i></i></label>
+				<div class="article ac-content">
+					<p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				</div>
+			</div>
+			<!-- accordion item 4 -- end -->
+			
+		</div>
+	</div>
+		
+	<script>
+		
+	</script>
+	
+	</body>
+</html>
